@@ -1,6 +1,6 @@
 import os
 
-filename=30
-for i in range(12):
-    os.system('mv '+str(filename)+'.gif '+str((i+3)%12)+'.gif')
+filename=1
+for i in range(16):
+    os.system('mv '+str(filename)+'.png p'+str(i+1)+'.png')
     filename=filename+1
